@@ -1,0 +1,74 @@
+PHP OOP Topics List
+
+1. Class and Object
+2. Properties and Methods
+3. Access Modifiers (public, private, protected)
+4. Constructors (__construct()) and Destructors (__destruct())
+5. $this Keyword
+6. Static Properties and Methods
+7. Class Constants (const)
+8. Inheritance
+9. Method Overriding
+10. parent:: Keyword
+11. Abstract Classes and Methods
+12. Traits
+13. Interfaces
+14. Final Classes and Methods
+15. Type Hinting and Return Types
+    15.1 Scalar Types
+    15.2 Class Types
+    15.3 Nullable Types
+    15.4 Union Types
+    15.5 Mixed Type
+    15.6 Void
+    15.7 Never
+    15.8 Callable
+    15.9 Iterable
+16. Magic Methods
+    16.1 __get(), __set()
+    16.2 __isset(), __unset()
+    16.3 __call(), __callStatic()
+    16.4 __toString()
+    16.5 __invoke()
+    16.6 __clone()
+    16.7 __sleep(), __wakeup()
+    16.8 __debugInfo()
+    16.9 __serialize(), __unserialize()
+17. Namespaces
+18. Dependency Injection
+    18.1 Constructor Injection
+    18.2 Setter Injection
+    18.3 Method Injection
+19. Common Design Patterns in PHP OOP
+    19.1 Singleton
+    19.2 Factory
+    19.3 Strategy
+    19.4 Observer
+    19.5 Decorator
+    19.6 Adapter
+20. Serialization and Unserialization
+21. Object Relationships
+    21.1 Association
+    21.2 Aggregation
+    21.3 Composition
+22. Object Cloning (Shallow & deep)
+23. Reflection API
+24. Anonymous Classes
+25. Late Static Binding (static::)
+26. SOLID Principles
+27. Coding Standards & PSR (PHP Standards Recommendations)
+28. Autoloading (PSR-4)
+29. Exception Handling in OOP
+30. Using Composer in OOP Projects
+31. Modern PHP OOP Features
+    31.1 Enums (PHP 8.1)
+    31.2 Readonly Properties (PHP 8.1)
+    31.3 Readonly Classes (PHP 8.2)
+    31.4 Attributes / Annotations (PHP 8.0)
+    31.5 Named Arguments (PHP 8.0)
+    31.6 Nullsafe Operator (PHP 8.0)
+32. Practical OOP Architecture
+    32.1 Service Classes
+    32.2 Repository Pattern
+    32.3 DTO (Data Transfer Object)
+    32.4 Value Objects
