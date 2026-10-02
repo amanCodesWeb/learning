@@ -1,4 +1,4 @@
-# 6.3 Service Providers
+# Service Providers
 
 ## Overview
 
@@ -222,6 +222,6 @@ A Service usually contains business logic, while a Service Provider registers/co
 
 Service Providers register bindings and services into the Service Container, which later resolves those dependencies.
 
-## Interview Point
+## Interview Point03_ dervice_providers
 
 > Service Providers are Laravel's mechanism for registering and configuring services, while the Service Container is responsible for resolving those services and their dependencies.
