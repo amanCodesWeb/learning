@@ -328,6 +328,7 @@ It allows the application to depend on an abstraction rather than a specific imp
 
 Use one when it provides meaningful separation, such as complex data-access logic, multiple data sources, or an architecture that benefits from abstraction.
 
+
 ## Interview Point
 
 > A Repository separates data-access logic from business logic and provides a consistent interface for retrieving and storing application data.
