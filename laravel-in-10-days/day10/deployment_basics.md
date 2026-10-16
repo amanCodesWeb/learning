@@ -18,13 +18,9 @@ Deployment is the process of making an application available in a production env
 ## Common Commands
 
     composer install --no-dev --optimize-autoloader
-
     php artisan key:generate
-
     php artisan migrate --force
-
     php artisan optimize
-
     php artisan queue:restart
 
 **Important:** Run `key:generate` only when setting up a new application without an existing key. Do not casually regenerate the key on an existing production application, as encrypted data and sessions may become unreadable.
