@@ -1,0 +1,9 @@
+SQL Learning Topics
+0. SQL Fundamentals
+1. SELECT & Filtering
+2. JOINs
+3. Aggregation (GROUP BY, HAVING)
+4. Subqueries
+5. Indexes & Performance
+6. Transactions
+7. Schema Design

@@ -1,0 +1,353 @@
+Laravel Topics List
+
+0. Laravel Fundamentals
+    0.1 What is Laravel?
+    0.2 Why Laravel?
+    0.3 Laravel Directory Structure
+    0.4 Request Lifecycle
+    0.5 MVC Architecture
+    0.6 Environment Configuration (.env)
+    0.7 Configuration Files
+    0.8 Artisan CLI
+    0.9 Composer & PSR-4 Autoloading
+    0.10 Application Bootstrapping
+    0.11 HTTP Kernel & Console Kernel
+    0.12 Request vs Response Lifecycle
+
+1. Routing
+    1.1 Basic Routes
+    1.2 Route Parameters
+    1.3 Named Routes
+    1.4 Route Groups
+    1.5 Prefix & Middleware Groups
+    1.6 Resource Routes
+    1.7 API Resource Routes
+    1.8 Route Model Binding
+    1.9 Fallback Routes
+    1.10 Signed URLs
+    1.11 Route Constraints
+    1.12 URL Generation
+    1.13 Route Caching
+    1.14 Route Macros
+
+2. Controllers
+    2.1 Basic Controllers
+    2.2 Resource Controllers
+    2.3 Single Action (Invokable) Controllers
+    2.4 Dependency Injection
+    2.5 Request Validation
+    2.6 Form Requests
+    2.7 Responses
+    2.8 Redirect Responses
+    2.9 API Responses
+    2.10 Response Macros
+
+3. Middleware
+    3.1 Creating Middleware
+    3.2 Global Middleware
+    3.3 Route Middleware
+    3.4 Middleware Parameters
+    3.5 Middleware Groups
+    3.6 Middleware Priority
+
+4. Service Container & Dependency Injection
+    4.1 What is the Service Container?
+    4.2 Automatic Resolution
+    4.3 Binding
+    4.4 Singleton Binding
+    4.5 Instance Binding
+    4.6 Dependency Injection
+    4.7 Contextual Binding
+    4.8 Contracts
+    4.9 Tagged Bindings
+    4.10 Extending Bindings
+
+5. Service Providers
+    5.1 What are Service Providers?
+    5.2 Register Method
+    5.3 Boot Method
+    5.4 Custom Service Providers
+    5.5 Deferred Providers
+    5.6 Package Service Providers
+
+6. Facades & Helpers
+    6.1 What are Facades?
+    6.2 How Facades Work
+    6.3 Common Facades
+    6.4 Helper Functions
+    6.5 Facades vs Dependency Injection
+
+7. Database
+    7.1 Database Configuration
+    7.2 Multiple Database Connections
+    7.3 Query Builder
+    7.4 Raw Queries
+    7.5 Transactions
+    7.6 Database Connections
+    7.7 Pessimistic Locking
+    7.8 Chunking Results
+    7.9 Lazy Collections
+    7.10 Cursor
+    7.11 Pagination
+    7.12 Database Indexes
+
+8. Migrations
+    8.1 Creating Migrations
+    8.2 Migration Methods
+    8.3 Column Types
+    8.4 Column Modifiers
+    8.5 Foreign Keys
+    8.6 Indexes
+    8.7 Renaming Tables & Columns
+    8.8 Rolling Back
+    8.9 Refresh & Fresh
+
+9. Seeders & Factories
+    9.1 Seeders
+    9.2 Model Factories
+    9.3 Faker
+    9.4 Database Seeding
+    9.5 Factory States
+
+10. Eloquent ORM
+    10.1 Models
+    10.2 CRUD Operations
+    10.3 Mass Assignment
+    10.4 Fillable vs Guarded
+    10.5 Attribute Casting
+    10.6 Accessors
+    10.7 Mutators
+    10.8 Local Scopes
+    10.9 Global Scopes
+    10.10 Soft Deletes
+    10.11 Model Events
+    10.12 Observers
+    10.13 Hidden & Visible Attributes
+    10.14 Appended Attributes
+    10.15 Replicating Models
+    10.16 Touches Property
+
+11. Eloquent Relationships
+    11.1 One to One
+    11.2 One to Many
+    11.3 Many to Many
+    11.4 Has One Through
+    11.5 Has Many Through
+    11.6 Polymorphic Relationships
+    11.7 Pivot Tables
+    11.8 Eager Loading
+    11.9 Lazy Loading
+    11.10 Lazy Eager Loading
+    11.11 Constraining Eager Loading
+    11.12 withCount()
+    11.13 whereHas()
+    11.14 Morph Maps
+    11.15 Preventing N+1 Queries
+
+12. Blade Templating
+    12.1 Blade Syntax
+    12.2 Layouts
+    12.3 Components
+    12.4 Anonymous Components
+    12.5 Slots
+    12.6 Directives
+    12.7 Stacks
+    12.8 Blade Fragments
+    12.9 Custom Blade Directives
+
+13. Authentication
+    13.1 Authentication Basics
+    13.2 Session Authentication
+    13.3 Laravel Breeze
+    13.4 Laravel Sanctum
+    13.5 Laravel Passport
+    13.6 Email Verification
+    13.7 Password Reset
+    13.8 Custom Guards
+
+14. Authorization
+    14.1 Gates
+    14.2 Policies
+    14.3 Authorization Middleware
+    14.4 Before & After Authorization Hooks
+
+15. File Storage
+    15.1 Local Storage
+    15.2 Public Storage
+    15.3 S3 Storage
+    15.4 File Uploads
+    15.5 Storage Facade
+    15.6 Symbolic Links
+    15.7 Temporary URLs
+    15.8 File Visibility
+
+16. Cache
+    16.1 Cache Drivers
+    16.2 Cache API
+    16.3 Cache Tags
+    16.4 Cache Remember
+    16.5 Redis
+    16.6 Atomic Locks
+
+17. Sessions & Cookies
+    17.1 Sessions
+    17.2 Flash Data
+    17.3 Cookies
+
+18. Mail
+    18.1 Mailables
+    18.2 Markdown Mail
+    18.3 Queued Mail
+    18.4 Mail Queue
+    18.5 Mail Events
+
+19. Notifications
+    19.1 Notification Channels
+    19.2 Mail Notifications
+    19.3 Database Notifications
+    19.4 Broadcast Notifications
+    19.5 Queued Notifications
+
+20. Events & Listeners
+    20.1 Events
+    20.2 Listeners
+    20.3 Event Subscribers
+    20.4 Queued Listeners
+    20.5 Event Discovery
+
+21. Queues & Jobs
+    21.1 Jobs
+    21.2 Queue Drivers
+    21.3 Queue Workers
+    21.4 Failed Jobs
+    21.5 Job Chaining
+    21.6 Job Batching
+    21.7 Queue Priorities
+    21.8 Job Middleware
+    21.9 Unique Jobs
+    21.10 Rate Limited Jobs
+
+22. Scheduling
+    22.1 Task Scheduler
+    22.2 Scheduled Commands
+    22.3 Scheduled Jobs
+    22.4 Schedule Frequencies
+    22.5 Preventing Overlapping
+    22.6 Background Tasks
+
+23. API Development
+    23.1 API Resources
+    23.2 Resource Collections
+    23.3 API Authentication
+    23.4 Pagination
+    23.5 Rate Limiting
+    23.6 API Versioning
+    23.7 API Error Handling
+    23.8 API Best Practices
+
+24. Testing
+    24.1 Unit Testing
+    24.2 Feature Testing
+    24.3 HTTP Tests
+    24.4 Database Testing
+    24.5 Mocking
+    24.6 Event Fakes
+    24.7 Mail Fakes
+    24.8 Queue Fakes
+    24.9 HTTP Assertions
+
+25. Logging & Debugging
+    25.1 Log Channels
+    25.2 Monolog
+    25.3 Telescope
+    25.4 dump() & dd()
+    25.5 Exception Handling
+    25.6 Custom Log Channels
+    25.7 Reporting Exceptions
+    25.8 Rendering Exceptions
+
+26. Performance Optimization
+    26.1 Config Cache
+    26.2 Route Cache
+    26.3 View Cache
+    26.4 OPcache
+    26.5 Queue Optimization
+    26.6 Eager Loading
+    26.7 Lazy Eager Loading
+    26.8 Chunking
+    26.9 Lazy Collections
+    26.10 Database Indexing
+    26.11 Query Optimization
+    26.12 Debugbar
+    26.13 Horizon
+
+27. Security
+    27.1 CSRF
+    27.2 XSS
+    27.3 SQL Injection
+    27.4 Mass Assignment
+    27.5 Password Hashing
+    27.6 Encryption
+    27.7 Signed URLs
+    27.8 Rate Limiting
+    27.9 CORS
+    27.10 Validation as Security
+
+28. Artisan Console
+    28.1 Built-in Commands
+    28.2 Creating Custom Commands
+    28.3 Command Signature
+    28.4 Input Arguments
+    28.5 Options
+    28.6 Progress Bars
+    28.7 Calling Commands Programmatically
+
+29. Collections
+    29.1 Collection Basics
+    29.2 Higher Order Messages
+    29.3 map()
+    29.4 filter()
+    29.5 reduce()
+    29.6 groupBy()
+    29.7 sortBy()
+    29.8 chunk()
+    29.9 lazy()
+    29.10 pipe()
+
+30. Practical Laravel Architecture
+    30.1 Service Layer
+    30.2 Repository Pattern
+    30.3 DTO (Data Transfer Objects)
+    30.4 Action Classes
+    30.5 Value Objects
+    30.6 Domain Services
+    30.7 SOLID Principles
+    30.8 Dependency Inversion Principle
+    30.9 Clean Architecture (Overview)
+    30.10 CQRS (Overview)
+
+31. Deployment
+    31.1 Environment Setup
+    31.2 Storage Link
+    31.3 Queue Workers
+    31.4 Scheduler
+    31.5 Supervisor
+    31.6 Config Cache
+    31.7 Route Cache
+    31.8 View Cache
+    31.9 Maintenance Mode
+    31.10 Environment Variables
+    31.11 Deployment Checklist
+    31.12 Zero Downtime Deployment (Concept)
+
+32. Interview & Real-World Concepts
+    32.1 SOLID in Laravel
+    32.2 Design Patterns Used in Laravel
+    32.3 Common Performance Bottlenecks
+    32.4 Common Security Mistakes
+    32.5 N+1 Problem Deep Dive
+    32.6 Service Container Interview Questions
+    32.7 Eloquent Interview Questions
+    32.8 API Design Best Practices
+    32.9 Common Laravel Interview Coding Tasks
+    32.10 Production Best Practices
